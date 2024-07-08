@@ -1,0 +1,74 @@
+.header__main {
+  background-color: #fff8f3;
+  background-image: url("/images/header_bg.png"), url("/images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, center left;
+}
+.header__nav {
+  display: flex;
+  overflow: hidden;
+  padding: 3.2rem 14rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo h3 {
+  font-family: var(--open-sans);
+  font-size: 45px;
+  font-weight: bolder;
+}
+.header__logo-accent {
+  color: var(--accent-color);
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu li {
+  list-style: none;
+  margin-left: 3.2rem;
+  font-size: 1.2rem;
+  color: var(--dark-2-color);
+  font-family: var(--open-sans);
+}
+
+.banner {
+  display: flex;
+  margin: 11.5rem 14rem;
+  align-items: center;
+  font-family: Open Sans;
+}
+.banner-subtitle {
+  font-family: var(--open-sans);
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--dark-2-color);
+  line-height: 4rem;
+}
+.banner-title {
+  color: var(--dark-1-color);
+  font-size: 5.5rem;
+  font-weight: 700;
+  line-height: 116px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-description {
+  color: var(--dark-3-color);
+  font-size: 1.125rem;
+  margin-bottom: 1.875rem;
+}
+.contact-button {
+  height: 4rem;
+  width: 10rem;
+  color: var(--accent-color);
+  font: var(--open-sans);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-align: center;
+  border: 1px solid var(--accent-color);
+  background-color: transparent;
+  cursor: pointer;
+}

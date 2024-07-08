@@ -35,6 +35,7 @@
 
 .banner {
   display: flex;
+  justify-content: space-between;
   margin: 11.5rem 14rem;
   align-items: center;
   font-family: Open Sans;
